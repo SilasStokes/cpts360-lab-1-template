@@ -1,0 +1,12 @@
+#! /bin/bash
+
+# This is a bash make script. Run it with "./mk" on your command line
+# if it doesnt work, you may need to make it executable with "chmod +x mk"
+# KC uses them in class.
+
+# If you script is not compiling, try running this line in your command line
+# sudo apt install gcc-multilib
+
+gcc -m32 t.c
+
+./a.out

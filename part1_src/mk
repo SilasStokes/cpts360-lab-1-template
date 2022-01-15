@@ -1,0 +1,18 @@
+#! /bin/bash
+
+# This is a bash make script. Run it with "./mk" on your command line
+# if it doesnt work, you may need to make it executable with "chmod +x mk"
+# KC uses them in class.
+
+# If you script is not compiling, try running this line in your command line
+# sudo apt install gcc-multilib
+
+gcc -m32 t.c
+
+# this is running your generated executable.
+# the $@ is bash syntax to allow you to pass arguments when you run the script. 
+# i.e now you can "./mk one two 1 2 12" and the parameters will be passed into 
+# your main function via argc and argv. 
+# in general each bash parameter can be accessed with $1 and $2, so "./mk one 2two" would let $1=one and $2=2two
+# $@ expands to pass all arguments.
+./a.out $@
