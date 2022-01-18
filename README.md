@@ -2,7 +2,7 @@
 
 Follow KC's write up of the assignment here: https://eecs.wsu.edu/~cs360/LAB1.html
 
-Place your code soley in the t.c files in each respective folders for part1 and part2 (t.c is just KC's convention). 
+Place your code solely in the t.c files in each respective folders for part1 and part2 (t.c is just KC's convention). 
 
 Ensure that your code will compile and run when the ./mk script is ran. That is how we are batch compiling and testing output on the backend so ./mk needs to work for us to see that your code works. You may need to change the mk script, that is totally fine. If we omitted anything important from it, please let us know and we wil update it in our template repository. 
 
